@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ApplicationRow = ({ application }) => {
-  // Status ke hisaab se color badalne ke liye
+
   const statusStyles = {
     "Shortlisted": "bg-green-100 text-green-800",
     "Under Review": "bg-yellow-100 text-yellow-800",

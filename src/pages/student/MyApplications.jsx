@@ -9,15 +9,14 @@ const MyApplications = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   
-  const typeFilter = searchParams.get('type'); // URL se 'type' nikalna
-  
-  // Applied opportunities ko filter karna
+  const typeFilter = searchParams.get('type'); 
+
   const appliedOpportunities = allOpportunities.filter(op => op.applied);
 
-  // URL ke 'type' ke hisaab se further filter karna
+
   const filteredApplications = appliedOpportunities.filter(app => {
-    if (!typeFilter) return true; // Agar koi filter nahi hai (sidebar se), to sab dikhao
-    return app.type.toLowerCase() === typeFilter; // job ya internship ke hisaab se filter
+    if (!typeFilter) return true;
+    return app.type.toLowerCase() === typeFilter; 
   });
 
   const tableHeaders = ["Role", "Company", "Type", "Status", "Applied On", "Last Update", "Actions"];
@@ -27,7 +26,7 @@ const MyApplications = () => {
       <div className="flex justify-between items-center">
         <h1 className="text-3xl font-bold text-gray-800">My Applications</h1>
         <button 
-          onClick={() => navigate(-1)} // Peeche wale page par jaane ke liye
+          onClick={() => navigate(-1)} 
           className="bg-gray-200 text-gray-700 font-semibold py-2 px-5 rounded-lg hover:bg-gray-300"
         >
           BACK

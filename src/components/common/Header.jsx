@@ -42,8 +42,7 @@ const Header = () => {
         <div className="relative" ref={dropdownRef}>
           <button onClick={() => setDropdownOpen(!isDropdownOpen)} className="flex items-center gap-3">
             
-            {/* === YAHAN BADLAV KIYA GAYA HAI === */}
-            {/* Placeholder image ki jagah initials wala avatar */}
+          
             <div className="w-10 h-10 rounded-full bg-teal-500 text-white flex items-center justify-center font-bold text-lg">
               AJ
             </div>

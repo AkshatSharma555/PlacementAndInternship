@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ApplicationTableModal = ({ onClose }) => {
-  // Sample data for applicants
+
   const applicants = [
     { name: 'Rohan Mehta', year: 'Final Year', branch: 'IT', phone: '9876543210', email: 'rohan@example.com', date: '2025-08-05' },
     { name: 'Priya Sharma', year: 'Third Year', branch: 'CSE', phone: '9876543211', email: 'priya@example.com', date: '2025-08-04' },

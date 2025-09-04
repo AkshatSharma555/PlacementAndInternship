@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Impact = () => {
-  // Sabhi stats ka data ek array mein rakha hai.
-  // Isse code saaf rehta hai aur update karna aasan hota hai.
   const stats = [
     {
       value: "250+",

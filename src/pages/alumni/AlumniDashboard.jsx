@@ -75,7 +75,7 @@ const AlumniDashboard = () => {
       {/* "My Postings & Proposals" Widget Yahan Add Kar Diya Gaya Hai */}
       <MyPostingsWidget />
 
-      {/* Naya Table Yahan Add Karein */}
+      {/* All Opportunities Table */}
       <AllOpportunitiesTable />
       
     </div>

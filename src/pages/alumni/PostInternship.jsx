@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Form ke har row ke liye ek reusable component
 const FormRow = ({ label, isRequired, children }) => (
   <div>
     <label className="block text-sm font-medium text-gray-700 mb-1">

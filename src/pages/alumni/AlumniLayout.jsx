@@ -5,7 +5,6 @@ import Header from '../../components/common/Header';
 
 const AlumniLayout = () => {
   return (
-    // YAHAN BADLAV KIYA GAYA HAI: h-screen ko min-h-screen kiya hai
     <div className="flex min-h-screen bg-gray-800">
       <AlumniSidebar />
       <div className="flex-1 flex flex-col overflow-hidden">

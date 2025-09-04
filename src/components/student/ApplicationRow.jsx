@@ -32,7 +32,7 @@ const ApplicationRow = ({ application }) => {
       {/* Last Update */}
       <div className="col-span-1 text-gray-700">{application.lastUpdate}</div>
       
-      {/* ===== YAHAN BADLAV KIYA GAYA HAI ===== */}
+ 
       {/* Actions */}
       <div className="col-span-1 flex flex-col gap-2">
         <button className={`${baseButtonStyles} border border-gray-300 text-gray-700 hover:bg-gray-100`}>View Timeline</button>

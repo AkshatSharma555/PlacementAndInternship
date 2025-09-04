@@ -1,7 +1,6 @@
 import React from 'react';
 
 const JobCard = ({ job }) => {
-  // Yeh function tab call hoga jab button par click kiya jayega
   const handleApplyClick = () => {
     // Simple alert message dikhana
     alert("Please log in as a student to apply for this opportunity.");
